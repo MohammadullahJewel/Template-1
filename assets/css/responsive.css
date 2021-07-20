@@ -1,0 +1,44 @@
+
+@media screen and (max-width:992px) {
+   
+}
+@media  screen and (max-width:768px) {
+   .col-md-4{
+     flex-basis: 47%;
+     margin:1.5%;
+   }
+   .client-box {
+    width: 80%;
+  }
+}
+@media screen and (max-width:600px) {
+  .row{
+    flex-direction: column;
+  }
+  .col-md-4{
+    flex-basis: 100%;
+    margin: 2%;
+  }
+  .subcribe input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width:500px) {
+  .users ul li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+  }
+  .users ul li{
+    margin: 5px;
+  }
+  header h2{
+    font-size: 20px;
+  }
+  p{
+    font-size: 13px;
+  }
+}
